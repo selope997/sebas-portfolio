@@ -16,13 +16,14 @@ const About = () => {
           <div className="about-text">
             <h3>Crafting Digital Experiences</h3>
             <p>
-              My name is sebastian Lopez I graduated from ECU with adegree in Computer Science. during my time at ECU I was able to work on many projects that helped me grow as a developer.
-              before studing at ECU I went to TAFE to study a bachelor of video games design, this is where I found my passion for coding and software development.
-              In my free time I enjoy playing the guitar, playin football or squash, I also enjoy playing video games and watching movies especilly scincefiction and horror.
+              Hi, my name is Sebastian Lopez. I graduated from ECU with a degree in Computer Science. During my time there, I worked on a variety of projects that helped me grow as a developer and deepen my technical skills.
+
+              Before studying at ECU, I pursued a Advance Diploma of Video Game Design at TAFE. It was during this time that I discovered my passion for coding and software development.
+
+              In my free time, I enjoy playing guitar, football, and squash. I’m also a big fan of video games and movies—especially science fiction and horror
             </p>
             <p>
-              I'm passionate about technology and always eager to learn new skills. I have been part of multiple projects that have helped me grow as a developer,
-              apart from the skills that I have gained in frontend and backend I allso enjoy exploring new field shuch as data science and machine learning.
+              I’m passionate about technology and always eager to learn new things. I’ve been involved in several projects that helped me grow both as a frontend and backend developer. Beyond that, I also enjoy exploring emerging areas like data science and machine learning.
             </p>
             <div className="about-skills">
               {[

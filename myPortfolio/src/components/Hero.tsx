@@ -18,9 +18,9 @@ const Hero = () => {
         </h2>
         
         <p className="hero-description">
-          Passionate about technology and always learing new technologies. 
-          Specialized in both frontend and backend development with a focus on scalable, 
-          user-centered solutions.
+          I'm passionate about building clean, scalable, and user-friendly digital solutions. 
+          I specialize in both frontend and backend development, 
+          and I’m always exploring new technologies—from web frameworks to machine learning—to stay at the edge of innovation.
         </p>
         
         <div className="hero-buttons">
