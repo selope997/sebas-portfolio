@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to bottom right, #0f172a, #581c87, #0f172a);
-  min-height: 100vh;
+  min-width: 100vh;
   color: white;
 }
 
@@ -253,6 +254,22 @@ body {
   background: #a855f7;
   transform: scale(1.1);
 } 
+
+.btn1, .btn2 {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 9999px;
+  transition: background-color 0.3s, transform 0.3s;
+  background: #452263;
+  border-radius: 10px;
+}
+
+.btn1:hover, .btn2:hover {
+  background: #751cc9;
+  transform: translateY(-2px);
+}
 
 /* About Section */
 /* About Section */

@@ -24,10 +24,10 @@ const Hero = () => {
         </p>
         
         <div className="hero-buttons">
-          <button className="btn btn-primary btn-lg">
+          <button className="btn1">
             View My Work
           </button>
-          <button className="btn btn-outline btn-lg">
+          <button className="btn2">
             Download CV
           </button>
         </div>
