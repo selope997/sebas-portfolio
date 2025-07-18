@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
-// import Skills from "../components/Skills";
+import SkillsSection from "../components/SkillsSection";
 // import Projects from "../components/Projects";
 // import Contact from "../components/Contact";
 import Navigation from "../components/Navigation";
@@ -11,8 +11,8 @@ const Index = () => {
       <Navigation />
       <Hero />
       <About />
-      {/*<Skills />
-      <Projects />
+      <SkillsSection />
+      {/*<Projects />
       <Contact /> */}
     </div>
   );

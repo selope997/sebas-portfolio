@@ -18,7 +18,7 @@ const Navigation = () => {
       <div className="nav-container">
         <div className="nav-content">
           <div className="nav-logo">
-            <span>Dev</span>Portfolio
+            <span>SL</span>Portfolio
           </div>
           
           <div className="nav-menu">
