@@ -1,7 +1,7 @@
 
-import React from 'react';
+//import React from 'react';
 import SkillCategory from './SkillCategory';
-import { Code, Database, Globe, Wrench } from 'lucide-react';
+import { Database, Globe, Wrench } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -22,7 +22,7 @@ const Skills = () => {
         { name: "Node.js", level: 88, color: "nodejs" },
         { name: "Python", level: 85, color: "python" },
         { name: "PostgreSQL", level: 82, color: "postgresql" },
-        { name: "MongoDB", level: 80, color: "mongodb" },
+        { name: "Django", level: 80, color: "mongodb" },
         { name: "Express.js", level: 87, color: "express" },
         { name: "REST APIs", level: 90, color: "rest" }
       ]

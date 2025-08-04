@@ -377,3 +377,9 @@ body {
     border-radius: 8px;
     background-color: #272f72;
   }
+
+  /* Projects Section */
+  .container
+  {
+    margin-top: 60px;
+  }

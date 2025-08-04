@@ -34,8 +34,8 @@ const Hero = () => {
         
         <div className="hero-socials">
           {[
-            { icon: Github, href: "#", label: "GitHub" },
-            { icon: Linkedin, href: "#", label: "LinkedIn" },
+            { icon: Github, href: "https://github.com/selope997", label: "GitHub" },
+            { icon: Linkedin, href: "https://linkedin.com/in/sebastian-lopez-28a682193", label: "LinkedIn" },
             { icon: Mail, href: "#contact", label: "Email" },
           ].map((social, index) => (
             <a

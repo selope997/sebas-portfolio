@@ -1,4 +1,4 @@
-import { useState } from "react";
+//import { useState } from "react";
 import "../styles.css";
 import Skills from "./skillsBar/Skills"; // Assuming you have a skills.json file with your skills data+
 
