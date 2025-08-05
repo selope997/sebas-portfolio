@@ -1,10 +1,9 @@
 import "../styles.css";
-import myPhoto from "../assets/workingPerson.jpg";
 import Projects from "./projects/Projects";
 
 const ProjectsSection = () => {
   return (
-    <section id="about" className="section">
+    <section id="projects" className="section">
       <div className="container">
         <section className="section-header">
           <h2 className="section-title">

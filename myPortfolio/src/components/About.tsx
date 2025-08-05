@@ -43,7 +43,7 @@ const About = () => {
               <img className="about-photo" src={myPhoto} alt="Description" />
               <p>Developer at Work</p>
             </div>
-          </div>
+          </div> 
         </section>
       </div>
     </section>

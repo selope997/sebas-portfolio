@@ -9,7 +9,7 @@ const Navigation = () => {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
+     { name: "Projects", href: "#projects" },
     //{ name: "Contact", href: "#contact" },
   ];
 
@@ -26,7 +26,7 @@ const Navigation = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="nav-link"
+                className="nav-link hide-on-mobile"
               >
                 {item.name}
               </a>

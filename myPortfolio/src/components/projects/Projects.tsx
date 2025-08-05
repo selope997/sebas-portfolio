@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectHolder from './ProjectHolder';
 import chatImage from '../../assets/ChatApp.png'; // Adjust the path as necessary
 import { FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiPostgresql } from 'react-icons/si';
+import { SiExpress, SiMongodb} from 'react-icons/si';
 
 //import './Projects.css';
 
@@ -20,6 +20,24 @@ interface Project {
 const Projects: React.FC = () => {
     const projects: Project[] = [
         // Add your projects here
+        {
+            id: 1,
+            title: "Convo (Chat App)",
+            description: "Convo is a real-time chat application that allows users to communicate seamlessly. It features user authentication, message history, and a responsive design.",
+            image: chatImage,
+            technologies: ["React", "TypeScript", "CSS"],
+            githubLink1: "https://github.com/selope997/wil-frontend.git",
+            githubLink2: "https://github.com/Ljabin/wil-backend.git",
+
+            Technologies: [
+                <FaReact size="2em" color="#ffffffff" />,
+                <FaNodeJs size="2em" color="#ffffffff" />,
+                <SiMongodb size="2em" color="#ffffffff" />,
+                <SiExpress size="2em" color="#ffffffff" />,
+                
+                
+            ],
+        },
         {
             id: 1,
             title: "Convo (Chat App)",

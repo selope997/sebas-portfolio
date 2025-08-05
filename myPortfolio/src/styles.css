@@ -3,8 +3,35 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  /* outline: 1px solid rgba(255,0,0,0.1); Remove after debugging */
 }
 
+#root {
+  padding: 0%;
+  margin: 0;
+  width: 100%;
+}
+
+html {
+            /* Smooth scrolling for anchor links */
+            scroll-behavior: smooth;
+            
+            /* Set base font size - this affects rem calculations */
+            font-size: var(--font-size-base);
+            
+            /* Better text rendering */
+            -webkit-text-size-adjust: 100%;
+            -moz-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+            
+            /* Better font smoothing */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            
+            /* Full height */
+            height: 100%;
+        }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,8 +40,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to bottom right, #0f172a, #581c87, #0f172a);
-  min-width: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden; 
   color: white;
+  flex-direction: column;
 }
 
 /* Utility classes */
@@ -25,6 +55,13 @@ body {
 }
 
 /* Navigation */
+
+@media (max-width: 767px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
 .navigation {
   top: 0;
   width: 100%;
@@ -345,6 +382,15 @@ body {
 
 /* Skills Section */
 
+.skills {
+  margin-top: 100px;
+
+}
+
+.section-description {
+  margin-bottom: 2rem;
+}
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
@@ -367,7 +413,7 @@ body {
     background: #e7e2e21a;
     border-radius: 8px;
     padding: 2px;
-    max-width: 400px;
+    max-width: 100%;
     margin-bottom: 1rem;
   }
 
@@ -382,4 +428,12 @@ body {
   .container
   {
     margin-top: 60px;
+  }
+
+  .projects-grid
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
   }

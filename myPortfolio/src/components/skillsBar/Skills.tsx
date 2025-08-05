@@ -45,12 +45,12 @@ const Skills = () => {
     <section className="skills-section">
       <div className="skills-container">
         <div className="skills-header">
-          <h2 className="skills-title">
+          {/* <h2 className="skills-title">
             Technical Skills
           </h2>
           <p className="skills-description">
             A comprehensive overview of my technical expertise across the full development stack
-          </p>
+          </p> */}
         </div>
 
         <div className="skills-grid">
